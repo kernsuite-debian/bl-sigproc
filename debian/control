@@ -1,0 +1,14 @@
+Source: bl-sigproc
+Section: science
+Priority: optional
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>=9), dh-autoreconf
+Standards-Version: 3.9.8
+Homepage: https://github.com/UCBerkeleySETI/bl_sigproc
+
+Package: bl-sigproc
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}, csh
+Description: Breakthrough Listen fork of SigProc tools
+ SIGPROC is a pulsar search processing software

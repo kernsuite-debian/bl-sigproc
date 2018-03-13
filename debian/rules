@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with autoreconf 
+
+#override_dh_install:
+#	dh_install --list-missing -X.la -X.pyc -X.pyo

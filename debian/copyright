@@ -1,0 +1,456 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: bl-sigproc
+Source: https://github.com/UCBerkeleySETI/bl_sigproc
+
+Files:     .gitignore
+           Makefile.am
+           README
+           autoconf/acx_pthread.m4
+           autoconf/cfitsio.m4
+           autoconf/crypto.m4
+           autoconf/debug.m4
+           autoconf/etr_socket_nsl.m4
+           autoconf/fftw.m4
+           autoconf/libxml.m4
+           autoconf/package.m4
+           autoconf/pgplot.m4
+           autoconf/psrxml.m4
+           autoconf/x11.m4
+           bootstrap
+           configure.in
+           src/Creadspec.C
+           src/Makefile.am
+           src/TKfit.C
+           src/TKfit.h
+           src/accn.csh
+           src/add_channels.c
+           src/add_samples.c
+           src/ahunt.csh
+           src/alfa_position.c
+           src/aliases.c
+           src/angle_split.c
+           src/aoftm.c
+           src/bacspin.h
+           src/bandfactors.c
+           src/bandpass.c
+           src/barycentre.c
+           src/baseline.f
+           src/best.f
+           src/birdies.inc
+           src/bit.c
+           src/blanker.c
+           src/bpp.c
+           src/bpp.h
+           src/bpp2fb.c
+           src/bpphdr.h
+           src/cel2gal.c
+           src/cfits_subs.c
+           src/chan_freqs.c
+           src/chaninfo.f
+           src/chop_fil.c
+           src/clip.c
+           src/clock.f
+           src/close_log.c
+           src/complex.h
+           src/conv.c
+           src/convertSigM.c
+           src/cpgplot.h
+           src/cpower.f
+           src/cprofc.c
+           src/csamp.inc
+           src/csearch.csh
+           src/decimate.c
+           src/decimate.h
+           src/decimate_data.c
+           src/decimate_header.c
+           src/dedisperse.c
+           src/dedisperse.h
+           src/dedisperse_all.C
+           src/dedisperse_all.h
+           src/dedisperse_data.c
+           src/dedisperse_data.c.bak
+           src/dedisperse_header.c
+           src/deg2dms.c
+           src/depolyco.c
+           src/dialog.C
+           src/dialog.h
+           src/dice.c
+           src/differ.csh
+           src/dmdelay.c
+           src/dmshift.c
+           src/documentation.tex
+           src/dosearch.f
+           src/downsample.c
+           src/epn.h
+           src/epnhdr.inc
+           src/epnpack.f
+           src/eraseDP.c
+           src/error_message.c
+           src/exporter.csh
+           src/extract.c
+           src/extragplot.C
+           src/fake.c
+           src/fast_mean.f
+           src/fetch_hdrval.c
+           src/ffa.f
+           src/ffft.f
+           src/ffreq.c
+           src/fftdata.f
+           src/fftwdata.f
+           src/fftwdummy.f
+           src/fil_conv.c
+           src/file_exists.c
+           src/filedit.c
+           src/filterbank.c
+           src/filterbank.h
+           src/filterbank_header.c
+           src/filterbankfe.c
+           src/filterbanklspec.c
+           src/filterbankmlm.c
+           src/filterbankmlm_old.c
+           src/find.h
+           src/find_baseline.C
+           src/find_baseline.h
+           src/find_fft.C
+           src/find_formspec.C
+           src/find_norm.f
+           src/find_summary.inc
+           src/flatten.c
+           src/flux.c
+           src/fold.c
+           src/fold.h
+           src/fold_data.c
+           src/fold_header.c
+           src/folds.inc
+           src/foldsignals.csh
+           src/formspec.f
+           src/freq.f
+           src/fshift_prof.c
+           src/getDMtable.C
+           src/getDMtable.h
+           src/getddis.f
+           src/getfast_rmea.f
+           src/getmeanrms.f
+           src/getmjd.f
+           src/getpulse.c
+           src/getrmea.f
+           src/getrrms.f
+           src/giant.C
+           src/glun.f
+           src/gmrt2fb.c
+           src/grey.f
+           src/gtools.C
+           src/gtools.h
+           src/head.inc
+           src/head_parse.c
+           src/header.c
+           src/header.h
+           src/headeredit.c
+           src/help.c
+           src/help.csh
+           src/histmax.f
+           src/hunt.csh
+           src/ignored_channels.c
+           src/include.csh
+           src/indexxf77.f
+           src/inputclip.c
+           src/inv_cerf.c
+           src/key.h
+           src/kurt_fil.c
+           src/length.f
+           src/libplotfil.C
+           src/libplotfil.h
+           src/longnam.h
+           src/lookup.c
+           src/machine2prf.c
+           src/makePsrXml.c
+           src/makedmlist.tcl
+           src/makedummy.csh
+           src/mask.f
+           src/meanrms.f
+           src/minmax.f
+           src/mjd.c
+           src/mkheader.c
+           src/mkheader.l
+           src/mkheader.y
+           src/mkheaderlex.c
+           src/mkmonitor.csh
+           src/mmzap.f
+           src/monitor.tk
+           src/newfind.c
+           src/newnewsumhrm.f
+           src/newoldsumhrm.f
+           src/norm_prof.c
+           src/normal.f
+           src/np2.c
+           src/npts.inc
+           src/nr.h
+           src/nrutil.c
+           src/nrutil.h
+           src/nsamples.c
+           src/old_wapp_header.h
+           src/older_wapp_header.h
+           src/ooty.h
+           src/ooty2fb.c
+           src/open_file.c
+           src/open_files.c
+           src/open_log.c
+           src/pack_unpack.c
+           src/peak.f
+           src/peak.inc
+           src/pgplotter.c
+           src/phcalc.c
+           src/plotpulses.f
+           src/plotpulses.old.f
+           src/polyco.h
+           src/polyco.tcl
+           src/polyco2period.c
+           src/postproc.f
+           src/prec_proto.h
+           src/print_version.c
+           src/process.c
+           src/prof_adds.c
+           src/prof_cent.c
+           src/prof_ddis.c
+           src/prof_sbas.c
+           src/prof_sumc.c
+           src/prof_sumifs.c
+           src/profile.c
+           src/profile.h
+           src/pspm2fb.c
+           src/pspm_decode.c
+           src/pspm_prof.c
+           src/pspm_tstart.c
+           src/pspmhdr.h
+           src/psrfits.c
+           src/psrfits2fb.c
+           src/pulsar2k2fb.c
+           src/pulse.c
+           src/pulse.h
+           src/pulse.inc
+           src/put.c
+           src/quickgplot.C
+           src/quicklook.csh
+           src/quickplot.f
+           src/quikgray.f
+           src/ralphs_mean.f
+           src/rdfbtab.f
+           src/rdhead.f
+           src/read_aoscan.c
+           src/read_block.c
+           src/read_blocksubzero.c
+           src/read_header.c
+           src/read_polyco.c
+           src/readchunk.c
+           src/readdat.f
+           src/reader.c
+           src/readpsrfits_hd.c
+           src/readspec.f
+           src/readsus.f
+           src/readtim.c
+           src/rebin.f
+           src/recon_prof.f
+           src/resample.f
+           src/resample_old.f
+           src/reverse_baseline_normalise.c
+           src/rotate_time.f
+           src/runaccsearch.C
+           src/rwepn.f
+           src/scale_prof.c
+           src/scaledata.c
+           src/scamp2fb.c
+           src/scamp_header.h
+           src/seek.f
+           src/seek.inc
+           src/seekin.f
+           src/send_stuff.c
+           src/shift_prof.c
+           src/short.f
+           src/shredder.C
+           src/sigproc.tex
+           src/single_ch.c
+           src/singlepulse.f
+           src/sizeof_file.c
+           src/slfit.f
+           src/smooth.c
+           src/snrdm.c
+           src/sort3.f
+           src/spcsnr.f
+           src/spec.f
+           src/splice.c
+           src/splice2.c
+           src/splitter.c
+           src/sprof.f
+           src/ssm.c
+           src/step.f
+           src/strings_equal.c
+           src/subint2prf.csh
+           src/submean.c
+           src/submedian.c
+           src/subzero.c
+           src/sum_fil.c
+           src/sum_fil_32.c
+           src/sumhrm.f
+           src/swap_bytes.c
+           src/tbary.f
+           src/thresh_1d.c
+           src/time.inc
+           src/timer.f
+           src/toi.c
+           src/toolkit.h
+           src/tree.c
+           src/tssb.f
+           src/tune.c
+           src/typeof_inputdata.c
+           src/update_log.c
+           src/uttime.c
+           src/vanvleck.c
+           src/vers.inc
+           src/version.h
+           src/version.history
+           src/vmax.c
+           src/vmin.c
+           src/wapp2fb.c
+           src/wapp_header.c
+           src/wapp_header.h
+           src/wapp_prof.c
+           src/wappcorrect.c
+           src/whiten.c
+           src/write_epn.c
+           src/write_profiles.c
+           src/write_pulses.c
+           src/writeepn.f
+           src/writespec.f
+           src/y.tab.h
+           src/zap_birdies.f
+           src/zapit.f
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     src/indexx.c
+           src/nrselect.c
+           src/nrsort.c
+           src/random.c
+           src/recipes.c
+           src/select.c
+           src/sigproc.pdf
+           src/slalib.c
+           src/slalib.h
+Copyright: 90 obj
+           99 obj <</Length 100 0 R/Filter /FlateDecode>> stream
+           4126 endobj
+           Copr. 1986-92 Numerical Recipes Software i9k''3.
+           P.T.Wallace.
+License:   __NO_LICENSE__
+
+Files:     src/slamac.h
+Copyright: P.T.Wallace.
+License:   __UNKNOWN__
+ max(A,B) - larger (most +ve) of two numbers (generic)
+
+Files:     src/toolkit.C
+Copyright: 1997-2002 Makoto Matsumoto and Takuji Nishimura,
+License:   BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ 3. The names of its contributors may not be used to endorse or promote
+ products derived from this software without specific prior written
+ permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ Any feedback is very welcome.
+ http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html
+ email: m-mat @ math.sci.hiroshima-u.ac.jp (remove space)
+ .
+ Period parameters
+ .
+ On Debian systems, the complete text of the BSD 3-clause "New" or "Revised"
+ License can be found in `/usr/share/common-licenses/BSD'.
+
+Files:     autoconf/check_zlib.m4
+Copyright: 2008 Loic Dachary <loic@senga.org>
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ As a special exception, the respective Autoconf Macro's copyright owner
+ gives unlimited permission to copy, distribute and modify the configure
+ scripts that are the output of Autoconf when processing the Macro. You
+ need not follow the terms of the GNU General Public License when using
+ or distributing such scripts, even though portions of the text of the
+ Macro appear in them. The GNU General Public License (GPL) does govern
+ all other use of the material that constitutes the Autoconf Macro.
+ .
+ This special exception to the GPL applies to versions of the Autoconf
+ Macro released by the Autoconf Macro Archive. When you make and
+ distribute a modified version of the Autoconf Macro, you may extend this
+ special exception to the GPL to apply to your modified version as well.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     autoconf/ax_openmp.m4
+Copyright: 2008 Steven G. Johnson <stevenj@alum.mit.edu>
+License:   GPL-3.0+ 
+ This program is free software: you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation, either version 3 of the License, or (at your
+ option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ As a special exception, the respective Autoconf Macro's copyright owner
+ gives unlimited permission to copy, distribute and modify the configure
+ scripts that are the output of Autoconf when processing the Macro. You
+ need not follow the terms of the GNU General Public License when using
+ or distributing such scripts, even though portions of the text of the
+ Macro appear in them. The GNU General Public License (GPL) does govern
+ all other use of the material that constitutes the Autoconf Macro.
+ .
+ This special exception to the GPL applies to versions of the Autoconf
+ Macro released by the Autoconf Macro Archive. When you make and
+ distribute a modified version of the Autoconf Macro, you may extend this
+ special exception to the GPL to apply to your modified version as well.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files: debian/*
+Copyright: 2018 Gijs Molenaar <gijs@pythonic.nl>
+License: MIT
