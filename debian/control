@@ -2,7 +2,8 @@ Source: bl-sigproc
 Section: science
 Priority: optional
 Maintainer: KERN packaging <packaging@kernsuite.info>
-Build-Depends: debhelper (>=9), dh-autoreconf
+Build-Depends: debhelper (>=9), dh-autoreconf, zlib1g-dev, csh, libcfitsio-dev,
+ libfftw3-dev, gfortran, libgsl-dev
 Standards-Version: 3.9.8
 Homepage: https://github.com/UCBerkeleySETI/bl_sigproc
 

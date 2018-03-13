@@ -1,5 +1,5 @@
-bl-sigproc (0+git20180302-1) UNRELEASED; urgency=low
+bl-sigproc (0+git20180302-1kern1) bionic; urgency=medium
 
   * Initial release
 
- -- KERN packaging <packaging@kernsuite.info>  Tue, 13 Mar 2018 12:08:45 +0000
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 13 Mar 2018 13:26:34 +0000
