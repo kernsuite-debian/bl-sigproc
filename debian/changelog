@@ -1,3 +1,11 @@
+bl-sigproc (0+git20180315-1kern1) bionic; urgency=medium
+
+  * New upstream version 0+git20180315
+  * remove depricated patches
+  * add mssing pgplot dep
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 19 Mar 2018 08:14:59 +0000
+
 bl-sigproc (0+git20180302-1kern1) bionic; urgency=medium
 
   * Initial release
