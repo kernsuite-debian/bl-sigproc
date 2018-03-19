@@ -1,0 +1,24 @@
+Description: fix more security formatting
+
+--- bl-sigproc-0+git20180315.orig/src/tune.c
++++ bl-sigproc-0+git20180315/src/tune.c
+@@ -708,7 +708,7 @@ int main (int argc, char *argv[])
+ 	if(writejreaper){
+ 
+ 		jreaperfile = fopen(jreaperfilename,"wa");
+-		fprintf(jreaperfile,inpfile);	
++		fprintf(jreaperfile,"%s",inpfile);	
+ 		fprintf(jreaperfile,"\n%lf %lf %lf\n",src_raj,src_dej,tstart);
+ 		fprintf(jreaperfile,"%lf %lf %lf\n",fftperiod,fftsnr,fftdm);
+ 		fprintf(jreaperfile,"%f %f %f %d %f\n", realPer,realAcc,realJer,widthMaxMax,snr);
+--- bl-sigproc-0+git20180315.orig/src/write_pulses.c
++++ bl-sigproc-0+git20180315/src/write_pulses.c
+@@ -43,7 +43,7 @@ Pulsus pulse[];
+       return( 1 );
+     }
+       
+-  sprintf(outfile, dir1);
++  sprintf(outfile, "%s", dir1);
+  
+   /*
+     First, open the output data file for writing.
