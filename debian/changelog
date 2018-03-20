@@ -1,3 +1,9 @@
+bl-sigproc (0+git20180315-1kern3) bionic; urgency=medium
+
+  * rename downsample due to conflict with presto
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 20 Mar 2018 06:51:16 +0000
+
 bl-sigproc (0+git20180315-1kern2) bionic; urgency=medium
 
   * fix more formatting issues
