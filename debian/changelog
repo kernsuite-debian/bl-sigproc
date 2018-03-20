@@ -1,3 +1,9 @@
+bl-sigproc (0+git20180315-1kern4) bionic; urgency=medium
+
+  * rename all conflicting binaries
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 20 Mar 2018 07:32:05 +0000
+
 bl-sigproc (0+git20180315-1kern3) bionic; urgency=medium
 
   * rename downsample due to conflict with presto
