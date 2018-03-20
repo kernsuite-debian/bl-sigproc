@@ -6,6 +6,5 @@
 override_dh_auto_install:
 	dh_auto_install
 	mv debian/bl-sigproc/usr/bin/downsample debian/bl-sigproc/usr/bin/bl-downsample
-
-#override_dh_install:
-#	dh_install --list-missing -X.la -X.pyc -X.pyo
+	mv debian/bl-sigproc/usr/bin/fold debian/bl-sigproc/usr/bin/bl-fold
+	mv debian/bl-sigproc/usr/bin/quicklook debian/bl-sigproc/usr/bin/bl-quicklook
