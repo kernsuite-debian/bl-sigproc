@@ -1,3 +1,11 @@
+bl-sigproc (0.0~git20180622.2b0c412-1) bionic; urgency=medium
+
+  [ Gijs Molenaar ]
+  * switch to newstyle watch
+  * New upstream version 0.0~git20180622.2b0c412
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 17 Aug 2018 11:32:22 +0200
+
 bl-sigproc (0+git20180315-1kern4) bionic; urgency=medium
 
   * rename all conflicting binaries
