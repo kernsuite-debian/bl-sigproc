@@ -1,3 +1,10 @@
+bl-sigproc (0.0~git20181130.efd2724-1) bionic; urgency=medium
+
+  [ Gijs Molenaar ]
+  * New upstream version 0.0~git20181130.efd2724
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 08 Jan 2019 11:58:47 +0200
+
 bl-sigproc (0.0~git20180622.2b0c412-1) bionic; urgency=medium
 
   [ Gijs Molenaar ]
